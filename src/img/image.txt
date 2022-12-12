@@ -1,0 +1,19 @@
+External images (from http://unsplash.com):
+1. yin.jpg (https://images.unsplash.com/photo-1489659639091-8b687bc4386e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2373&q=80)
+2. card1.jpg (https://images.unsplash.com/photo-1603962039310-f941ad90584c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1336&q=80)
+3. card2.jpg (https://images.unsplash.com/photo-1634158107176-3dc254e6b238?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80)
+4. card3.jpg (https://images.unsplash.com/photo-1597872452241-80984f2de28c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1008&q=80)
+5. card4.jpg (https://images.unsplash.com/photo-1531933046417-48eda63717b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)
+6. card5.jpg (https://images.unsplash.com/photo-1617186531332-9084cc446fd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80)
+7. card6.jpg (https://images.unsplash.com/photo-1579291465628-98115e927a42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)
+8. carousel1.jpg (https://images.unsplash.com/photo-1490187291333-b4ece7bec2e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80)
+8. carousel2.jpg (https://images.unsplash.com/photo-1533552755457-5b471cb2ab11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80)
+8. carousel3.jpg (https://images.unsplash.com/photo-1523495556462-52cbd31f2afe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80)
+8. carousel4.jpg (https://images.unsplash.com/photo-1517384999518-2caf53084715?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2664&q=80)
+8. carousel5.jpg (https://images.unsplash.com/photo-1598888831641-72b238bc5bae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80)
+8. carousel6.jpg (https://images.unsplash.com/photo-1476900164809-ff19b8ae5968?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80)
+
+
+Personal images (by Changyu Wu):
+1. logo.png
+2. yang.jpg

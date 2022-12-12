@@ -1,0 +1,125 @@
+.card {
+    width: 20rem;
+    /* height: 25rem; */
+    margin: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.5);
+}
+
+.card.theme--dark {
+    box-shadow: 0 0.5rem 1rem 0 rgba(255, 255, 255, 0.5);
+}
+
+.card:focus-within .card__image,
+.card:hover .card__image {
+    transform: translateY(-10px);
+}
+
+.card:focus-within .card__caption,
+.card:hover .card__caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card:focus-within .card__content,
+.card:hover .card__content {
+    margin: 1.5rem 0;
+}
+
+.card:focus-within .card__thumb::after,
+.card:hover .card__thumb::after {
+    top: 0;
+}
+
+.card__thumb {
+    position: relative;
+    max-height: 25rem;
+    overflow: hidden;
+}
+
+.card__thumb::after {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    /* content: ""; */
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 40%, rgba(255, 255, 255, 0) 100%); */
+}
+
+.card__image {
+    width: 20rem;
+    /* height: 25rem; */
+    transition: 0.5s ease-in-out;
+}
+
+.card__caption {
+    position: absolute;
+    top: 50%;
+    padding: 1rem 1.5rem;
+    color: white;
+    transform: translateY(-50%);
+    text-align: center;
+    background: linear-gradient(-30deg, rgba(0, 0, 0, 0.5) 40%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+
+.card__title {
+    max-height: 5.3rem;
+    overflow: hidden;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    text-shadow: 0 0.1rem 0.3rem black;
+    text-overflow: ellipsis;
+}
+
+.card__content {
+    max-height: 9.3rem;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-overflow: ellipsis;
+    transition: 0.5s ease-in-out;
+}
+
+.card__button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    color: white;
+    border: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.card__button:focus-within,
+.card__button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+@media screen and (min-width: 50rem) {
+    .card__thumb {
+        max-height: 25rem;
+    }
+
+    .card__thumb::after {
+        top: calc(100% - 9rem);
+    }
+
+    .card__caption {
+        top: calc(100% - 7rem);
+        transform: none;
+    }
+
+    .card__content {
+        margin: 4rem 0;
+    }
+}

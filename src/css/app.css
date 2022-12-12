@@ -1,0 +1,24 @@
+.app {
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.skip__link {
+    z-index: 15;
+    position: absolute;
+    left: -100%;
+
+    letter-spacing: 0.1rem;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    border: solid 1px #FFF;
+}
+
+.skip__link:focus {
+    left: 40%;
+
+    color: #5990FF;
+    background: #FFF;
+}

@@ -1,0 +1,91 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #20366b;
+}
+
+.global__nav__button {
+    margin: 0;
+    padding: 0.8rem;
+
+    cursor: pointer;
+    border: none;
+    color: #eae3e3;
+    background: inherit;
+}
+
+.logo__title {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.logo__image {
+    width: 36px;
+    height: 36px;
+
+    margin: 0.3rem;
+
+    border-radius: 0.5rem;
+    background-color: #eae3e3;
+}
+
+.header__title {
+    margin: 0;
+
+    color: whitesmoke;
+}
+
+.header__accessories {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme__button {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+    background: inherit;
+}
+
+.join__button {
+    margin: 0 0.5rem;
+    padding: 0.3rem 0.7rem;
+
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: whitesmoke;
+    background-color: rgb(144, 87, 205);
+}
+
+
+@media screen and (min-width:50rem) {
+    .header {
+        position: inherit;
+    }
+
+    .global__nav__button {
+        display: none;
+    }
+
+    .logo__image {
+        width: 40px;
+        height: 40px;
+    }
+}

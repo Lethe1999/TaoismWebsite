@@ -1,0 +1,46 @@
+.accordion {
+    padding: 1rem;
+}
+
+.accordion__question {
+    display: block;
+    padding: 1rem;
+
+    overflow: hidden;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+
+    border-bottom: 0.18rem solid #aaa69d;
+}
+
+.accordion__content {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    letter-spacing: 0.13rem;
+
+    transition: 2s;
+}
+
+.accordion__content--open {
+    height: max-content;
+    padding: 1.25rem;
+    opacity: 1;
+}
+
+
+@media screen and (min-width:50rem) {
+    .accordion__content--open {
+        padding: 2rem;
+    }
+}
+
+
+@media prefers-reduced-motion {
+    .accordion__content {
+        transition: none;
+    }
+}

@@ -1,0 +1,51 @@
+.home__top {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home__top--light {
+    background-image: url("../img/yang.jpg");
+}
+
+.home__top--dark {
+    background-image: url("../img/yin.jpg");
+}
+
+.home__text {
+    height: 50rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.786);
+}
+
+.home__title {
+    margin: 0.5rem;
+
+    color: rgb(40, 40, 203);
+    font-family: 'TitleFont';
+    font-size: 2rem;
+}
+
+.home__content {
+    font-size: 1rem;
+    margin: 2rem 1rem;
+}
+
+@media screen and (min-width:50rem) {
+    .home__text {
+        width: 50%;
+    }
+
+    .home__title {
+        font-size: 3rem;
+    }
+
+    .home__content {
+        font-size: 1.5rem;
+        margin: 5rem 1rem;
+    }
+}

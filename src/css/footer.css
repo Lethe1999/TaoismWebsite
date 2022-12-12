@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+
+    --mode-color: black;
+    --mode-bg-color: white;
+    color: var(--mode-color);
+    background-color: var(--mode-bg-color);
+}
+
+.footer.theme--dark {
+    --mode-color: white;
+    --mode-bg-color: black;
+}
+
+.footer__title {
+    font-size: 0.8rem;
+}
+
+
+@media screen and (min-width:50rem) {
+    .footer__title {
+        font-size: 1rem;
+    }
+}
